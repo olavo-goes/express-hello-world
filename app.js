@@ -46,6 +46,19 @@ app.get('/pokemons', (req, res) => {
 })
 
 
+const series = [
+  "One piece", 
+  "Naruto",
+  "DragonBall"
+]
+
+
+app.get('/series', (req, res) => {
+  console.log("Requisição de series!")
+  res.json(series)
+})
+
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 
