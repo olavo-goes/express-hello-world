@@ -19,6 +19,13 @@ app.get('/olavo', (req, res) => {
 })
 
 
+
+app.get('/Tico', (req,res) => {
+  console.log("Requisição Feita!")
+  res.send('Teco')
+})
+
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 
