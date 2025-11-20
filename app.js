@@ -20,9 +20,9 @@ app.get('/olavo', (req, res) => {
 
 
 
-app.get('/Tico', (req,res) => {
+app.get('/tico', (req,res) => {
   console.log("Requisição Feita!")
-  res.send('Teco')
+  res.send('teco')
 })
 
 
