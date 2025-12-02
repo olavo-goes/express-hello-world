@@ -47,9 +47,9 @@ app.get('/pokemons', (req, res) => {
 
 
 const series = [
-  "One piece", 
-  "Naruto",
-  "DragonBall"
+  "Mindhunter", 
+  "Game of Thrones",
+  "Sherlock"
 ]
 
 
